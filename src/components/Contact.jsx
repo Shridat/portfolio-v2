@@ -2,7 +2,7 @@ import React,{useState,useRef} from 'react';
 import {motion} from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import {FiMail,FiMapPin,FiLinkedin,FiGithub,FiSend} from 'react-icons/fi';
-const SVC='YOUR_SERVICE_ID',TMP='YOUR_TEMPLATE_ID',KEY='YOUR_PUBLIC_KEY';
+const SVC='service_so7yl87',TMP='template_vpece8k',KEY='s7unsVLSMubhA78Xt';
 const Contact=()=>{
   const ref=useRef();
   const [f,sf]=useState({name:'',email:'',subject:'',message:''});
