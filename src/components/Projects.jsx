@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import {motion,AnimatePresence} from 'framer-motion';
-import {FiGithub,FiExternalLink} from 'react-icons/fi';
+import {FiGithub} from 'react-icons/fi';
 const projects=[
   {title:'Policy Document RAG Chatbot',cat:'LLM / GenAI',featured:true,desc:'End-to-end RAG pipeline for insurance policy PDFs. Natural language Q&A with FAISS vector store, LangChain orchestration, and HuggingFace models deployed via Streamlit.',tech:['LangChain','FAISS','HuggingFace','Streamlit','Python','RAG'],gh:'https://github.com/Shridat/Insuarance-policy-RAG-chatbot',filter:'LLM'},
   {title:'Rental Lease Summarizer',cat:'NLP',featured:false,desc:'NLP app that summarizes rental lease agreements using LangChain and transformers. Extracts key clauses, backed by Firebase.',tech:['LangChain','Python','NLP','Firebase','Flask'],gh:'https://github.com/Shridat/Rental-Lease-Summarizer',filter:'NLP'},
